@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="flex flex-col items-center justify-center min-h-screen px-4">
+ <!-- Navbar -->
+<nav class="fixed top-0 left-0 right-0 border-b border-gray-200 bg-white z-10 p-4">
+  <div class="max-w-screen-xl mx-auto flex justify-center items-center">
+    <div class="text-xl font-normal text-gray-900 tracking-wider">ΔΔS</div>
+  </div>
+</nav>
+
+  <!-- Register Box -->
+  <div class="w-full max-w-md mt-24">
+    <h2 class="text-xl font-medium mb-6">CREATE ACCOUNT</h2>
+
+    <form class="space-y-6">
+      <div>
+        <label class="block mb-1">FIRST NAME</label>
+        <input type="text" id="firstName" required class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <div>
+        <label class="block mb-1">LAST NAME</label>
+        <input type="text" id="lastName" required class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <div>
+        <label class="block mb-1">E-MAIL</label>
+        <input type="email" id="email" required class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <div>
+        <label class="block mb-1">PASSWORD</label>
+        <input type="password" id="password" required minlength="8" class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <button type="submit" class="w-full bg-black text-white py-2">CREATE ACCOUNT</button>
+      <a href="SignIn.html" class="block text-center border border-black py-2 mt-2">CANCEL</a>
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>

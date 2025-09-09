@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign In</title>
+  <link rel="stylesheet" href="output.css" />
+</head>
+
+<body class="flex flex-col items-center justify-center min-h-screen px-4">
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 right-0 border-b border-gray-200 bg-white z-10 p-4">
+  <div class="max-w-screen-xl mx-auto flex justify-center items-center">
+    <div class="text-xl font-normal text-gray-900 tracking-wider">ΔΔS</div>
+  </div>
+</nav>
+
+  <!-- Login Box -->
+  <div class="w-full max-w-md mt-24">
+    <h2 class="text-xl font-medium mb-6">MY ACCOUNT</h2>
+
+    <form class="space-y-6">
+      <div>
+        <label class="block mb-1">E-MAIL</label>
+        <input type="email" name="email" required class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <div>
+        <label class="block mb-1">PASSWORD</label>
+        <input type="password" name="password" required class="w-full border-b border-gray-300 py-2" />
+      </div>
+      <div class="text-center">
+        <a href="ForgotPW.html" class="text-sm underline text-gray-700">FORGOT PASSWORD?</a>
+      </div>
+      <button type="submit" class="w-full bg-black text-white py-2">SIGN IN</button>
+      <a href="Signup.html" class="w-full block text-center border border-black py-2 hover:bg-gray-100">
+        CREATE ACCOUNT
+      </a>
+
+    </form>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
